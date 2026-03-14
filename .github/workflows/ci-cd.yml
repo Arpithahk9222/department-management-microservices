@@ -3,7 +3,7 @@ name: Department Service CI Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
