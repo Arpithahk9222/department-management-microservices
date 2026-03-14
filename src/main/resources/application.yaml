@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: department-service
+
+  datasource:
+    url: jdbc:sqlserver://employee-microservice.database.windows.net:1433;databaseName=department_db;encrypt=true;trustServerCertificate=true
+    username: sqladmin
+    password: Arpitha@123
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8082
+
